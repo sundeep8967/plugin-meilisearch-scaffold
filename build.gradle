@@ -51,7 +51,7 @@ dependencies {
     compileOnly group: "io.kestra", name: "script", version: kestraVersion
 
     // Meilisearch official Java SDK
-    implementation "com.meilisearch.sdk:meilisearch-java:0.14.4"
+    implementation "com.meilisearch.sdk:meilisearch-java:0.22.1"
 }
 
 /**********************************************************************************************************************\
