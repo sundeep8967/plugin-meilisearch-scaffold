@@ -1,0 +1,5 @@
+io.kestra.plugin.meilisearch.AddDocuments
+io.kestra.plugin.meilisearch.CreateIndex
+io.kestra.plugin.meilisearch.DeleteDocuments
+io.kestra.plugin.meilisearch.DropIndex
+io.kestra.plugin.meilisearch.Search

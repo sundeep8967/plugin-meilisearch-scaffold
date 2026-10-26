@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+X-Kestra-Name: plugin-meilisearch
+X-Kestra-Title: Meilisearch
+X-Kestra-Group: io.kestra.plugin.meilisearch
+X-Kestra-Description: Meilisearch plugin for Kestra, bringing index mana
+ gement, document indexing, full-text and hybrid vector search to flows.
+X-Kestra-Version: 0.1.0-SNAPSHOT
+Multi-Release: true
+

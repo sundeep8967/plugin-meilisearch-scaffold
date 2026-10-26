@@ -1,0 +1,4944 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:0ab9af1a-f77e-495e-9b8d-5265af8ffce5",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-10-26T18:43:10Z",
+    "tools" : {
+      "components" : [
+        {
+          "type" : "application",
+          "author" : "CycloneDX",
+          "name" : "cyclonedx-gradle-plugin",
+          "version" : "3.4.1"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.kestra.plugin/plugin-meilisearch@0.1.0-SNAPSHOT?project_path=%3A",
+      "group" : "io.kestra.plugin",
+      "name" : "plugin-meilisearch",
+      "version" : "0.1.0-SNAPSHOT",
+      "purl" : "pkg:maven/io.kestra.plugin/plugin-meilisearch@0.1.0-SNAPSHOT?project_path=%3A",
+      "modified" : false
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.amazonaws/aws-java-sdk-bom@1.12.787?type=pom",
+      "group" : "com.amazonaws",
+      "name" : "aws-java-sdk-bom",
+      "version" : "1.12.787",
+      "description" : "The AWS SDK for Java - BOM module provides dependency management for individual java clients.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.amazonaws/aws-java-sdk-bom@1.12.787?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.auth0/java-jwt@4.5.0?type=jar",
+      "group" : "com.auth0",
+      "name" : "java-jwt",
+      "version" : "4.5.0",
+      "description" : "Java client library for the Auth0 platform",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e49bf7a91d0b97de5272d2733d21512c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d7004155fe57a107cc40fb6be0132d8ad2530613"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "defc50d5066630d46737ba3077e1e13df7201baf5817394c9a4d3d23e2ad3019"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a225d3ffb575cd57fddafc0548d0bcf4ecfaf942b75b7a8eb0888e3910340c139856f3121ba25cb823b31bb6e54a67ae137ee02ed8da9d51e737f9d4a6a0f7d9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5a5a444a1bd5a28e243eba749c0029c34898013055e8d2573eecbad21c9d2c10"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c2304c1a6cca16311c007723b859385b1af09039298b4aef9e0d9f35ed44d1910845008102cbf133a59e9b597db23983b545fc2292609a6527e4a772a65a05fa"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5171ae8c99d7a74dfaf365e75555dcb01d7e5f547459f52512a43ab7af2c9ba19eddf3a0265e0b58375c15a2b507fd85"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "25f7161ea46ff904d6bc22fd9bd1b99e028d34db7e7c3633adf618245ca6c0faa6284c1569113a1971df79fa9b6b1911"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.auth0/java-jwt@4.5.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/auth0/java-jwt"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.azure/azure-sdk-bom@1.3.8?type=pom",
+      "group" : "com.azure",
+      "name" : "azure-sdk-bom",
+      "version" : "1.3.8",
+      "description" : "Azure Java SDK BOM (Bill of Materials)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.azure/azure-sdk-bom@1.3.8?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/azure/azure-sdk-for-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/azure/azure-sdk-for-java"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar",
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.22",
+      "description" : "Core annotations used for value types, used by Jackson data binding package.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "04c11c456fd1e21b9a21c25c665109cc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "15c67f9498d6934cff9510fc70c5a12e52290457"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "21ddb598807d3a51a876704eb979d9296e1c6a6f47ab1826ff88c6d6a127a2d0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "63b597ec02b4e31c57266d9b96f05f301f217bc12ffb7ba046a5658d2829728930a559947b98eb6c3cc448413a96b4939427aa669ae1e2dc3597ab5d5d287f9f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6bfc7b4ba70779fe5f0b1e2af585abab982f7929a68beb2c0e62ea2e2a321de0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3f1bdfa32f7df76ac14cd2a3e689b65066fa0a6a760a9b8b1121773bb1b043a44587d4148c67f361dc6c630e6b31f29b2691a57d47caabea5ca23ae44af34a5e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "35b6fe651afeed54d1e6f7a39ac6cf6fdbafacdf2e3bdff7b29b965ccb79a0c53342a56bf0ecea4d6c4c4651b1d6aa19"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "72267dc54c4175c42ca0dd430a87b12cc68619a8777be2048e1d2f0747db884a568b5c346c77c9c8c0714ab96018f5f7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-annotations"
+        },
+        {
+          "type" : "website",
+          "url" : "http://fasterxml.com/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://central.sonatype.com/api/v1/publisher"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.22.1",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "09e866bcd73613665ef49f5086704fb1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "da7ffb60088d7e8f37ecdd3b617520971cc7b9bf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "941ff029bcdb93e83d209ce516c1a7fb8bbac07d0a2fa122f5bf194b2cd7b4f4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d4485af4465f561034df86686d672835b0272b6200efb0af55ea71e62d3faf09e9f90e42df4da64650795cf00519fc553f892bf6179330a3e74750110a785efb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "48fc6e17c36e14b8bae387b92248a43da12293b68a61dd2517c708dbb24ed010"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f72ef2d2a1012be8b1c972323527a396bbaea0b543bd79fac6d380f8e4855c6d98190b067ccec92ece9ed8e1ece1e6046b1d93f9c85944fcb7133fe0b4dc60e4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "faaf92de6e93475fdbb7d56221fd35d8435ac4f87dddfd334ed05c4318b8b72220010effd08bf8dd156420771b294eb4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5c432f1a2f3369485c4ed7d3c3c4499342c23efd0d7a574b73421345df9762bd27643cc469b01632400691f3c09b5d8b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1?type=jar",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.22.1",
+      "description" : "General data-binding functionality for Jackson: works on core streaming API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "df2dcf8d581836d48aae7387311cba93"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9e2fb91831cce9cb9262909cd76647508949f232"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7dcd7e53bec1f56c7ad278bd1ca0840bebcc595d61ce44d6a8439abb75b965b2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d8a905e80e6d7dd2026b16b075dde2d409425b61417120980ea07b261c6bf98d5c065053f1c063b60da30b4324157778ec4eb859945fb8543176e55a2d3b8db8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ab1df340c8e99a3ea6f485b9e3bf0e1cb7b57810b09e9161c8eee38eb8db3e47"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "dc3f3df098898dc6bf71fcef0ca232a592f59fb465161b95b03a28eebc9539bede1db83bacaf14dc57328feffc7a4637b911a09356fa4330d93f52131ac7254e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b45efa1187b756bdfa7e0c6bc2eda85fcf13d879b4bf370f06ef95325c13b629f763a8027dbc34dab7c6a549bb33e945"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7eeb7d7ea5434fdede4b0d256955d0ebf93a11ad89efcc2a3551d649bf197f6aa6c3dd60247805a13270fd8ed0a98ae8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-databind"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom",
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson",
+      "name" : "jackson-bom",
+      "version" : "2.22.1",
+      "description" : "Bill of Materials pom for getting full, complete set of compatible versions of Jackson components maintained by FasterXML.com",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://fasterxml.com/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-bom"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.cloud/libraries-bom@26.86.0?type=pom",
+      "publisher" : "Google LLC",
+      "group" : "com.google.cloud",
+      "name" : "libraries-bom",
+      "version" : "26.86.0",
+      "description" : "A compatible set of Google Cloud open source libraries. Document: https://cloud.google.com/java/docs/bom",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.cloud/libraries-bom@26.86.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://cloud.google.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://google.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/googleapis/google-cloud-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/googleapis/google-cloud-java"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "group" : "com.google.code.gson",
+      "name" : "gson",
+      "version" : "2.13.2",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a2c47e14ce5e956105458fe455f5d542"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "48b8230771e573b54ce6e867a9001e75977fe78e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8974a052656d2e5ec968b6bac2edf51413ffc62040fdc65f14f00597e738ab544d22487f8579ba90618b5a7f94ef33773510fac67b408fee6ed274b38f3d9947"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1c051cfe5e630b35d003f96e135de7c5d5cab145b6e1159143570cb246426a0d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "55ddee7f6c1659ffa82e5c308a0181b459cfeb3442f1f9868ff7e9a3c83376bd2ad527b16d5131df442ffd03d06c35dbd64458df6b02a111c1654f01db381ba5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "98e8afe5b23c43b84e7a57e0e27f683a182fcf97ee3eeb6a1311582f7fecd846c806ffb092b620088dc03d256d8eaf27"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d61d6b1cf6997c75287f454e536f855db8404e5fb9d0b8faa4dcc1e7a60ffefc05c2f92f3514e091808a8677b29f3619"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "group" : "com.google.errorprone",
+      "name" : "error_prone_annotations",
+      "version" : "2.41.0",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "75e3b25da8b8a2136463c4674f5e49bf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4381275efdef6ddfae38f002c31e84cd001c97f0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a56e782b5b50811ac204073a355a21d915a2107fce13ec711331ad036f660fcc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e2eb4bf9f36f95a4d4c5ea344db5cd90a456e63bef8e52932b8f6f4ecfdd59cb2f6c2ce9e67b0070c82177e42885688b95afef591b16001f789b378f18afdf30"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2ca1a59f4fdc37a3c83501542c63842fa4fe40c06f69a59a2a072e4af442a16a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6d1f419996b15e5a2bd9b268d166046e38fe9cc6c58fe56aaacbe71b95e3db8c8fe1d226e7f549ea227956feaf3087706bdfa79930fe432298bba9ec06c26a90"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "43700b378624aa37197ef03a6b5ea40b5fbb6c0aa667eadf810ad36f0707dffaf3ea23471f2553327c3f5644cc875ee7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8bf3293cf4b72c9a999948f8812190636ef3b0c35bab8dbf9a54c263eeab2a3b3d0774fdcab52c6d114551ff74a8aea2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.protobuf/protobuf-bom@3.25.8?type=pom",
+      "publisher" : "Google LLC",
+      "group" : "com.google.protobuf",
+      "name" : "protobuf-bom",
+      "version" : "3.25.8",
+      "description" : "A compatible set of open source libraries for working with protocol buffers.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.protobuf/protobuf-bom@3.25.8?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://protobuf.dev"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/protocolbuffers/protobuf"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.meilisearch.sdk/meilisearch-java@0.14.4?type=jar",
+      "group" : "com.meilisearch.sdk",
+      "name" : "meilisearch-java",
+      "version" : "0.14.4",
+      "description" : "Meilisearch is a powerful, fast, open-source, easy to use and deploy search engine.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e564f5379f3c3a77692b86b1fff9e3d3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "78a15ce2832754ccda02e873418456d56b3ea115"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8e23feb744f56a60089e614f46db293177f3929628686346958f53b9d350ba4b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "22e3f85480a0ed9bc9813d024b68cd057f4c8a2bc10de7abe8de9b36acc2d166d3c1067f5a25307ba3b8ed9b5d5f418b4d62ad3bb37f493838a40d5cb03527bd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "85daffc0d68abb9f604722805f95090c60c3d067826d87aa13959364da1fb699"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b9a91f59a1a2a46dbca132f433fd4a1fe27346b51692b206c94728fb2f7b2f54cd714b834aef3cb37dd7f6df5063e74ab8ae4374423c5d6034f17b4a4ab6f4d5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "415ae6b4e446604a544f542f91b0bbad3dadaa4578956957d3d8ffaa3a700e62c2cd563fa7d306e90a4cc8579cf8b95a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4dd1d52ef3454cb1f64fec7cf028b2db55b3cf3d38ea3bbedc6d6d6f5a4003b20d177b44e269d59c6d49d76542bc31ed"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.meilisearch.sdk/meilisearch-java@0.14.4?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/meilisearch/meilisearch-java"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.oracle.coherence.ce/coherence-bom@25.03.2?type=pom",
+      "publisher" : "Oracle",
+      "group" : "com.oracle.coherence.ce",
+      "name" : "coherence-bom",
+      "version" : "25.03.2",
+      "description" : "Oracle Coherence Bill of Materials",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Universal Permissive License v 1.0",
+            "url" : "https://oss.oracle.com/licenses/upl"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.oracle.coherence.ce/coherence-bom@25.03.2?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.oracle.com"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/coherence"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okhttp3/okhttp@4.12.1?type=jar",
+      "group" : "com.squareup.okhttp3",
+      "name" : "okhttp",
+      "version" : "4.12.1",
+      "description" : "Square’s meticulous HTTP client for Java and Kotlin.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "37b4b640dddeff4bab761129d1243624"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b472ba9672d07789e86e94872ae5ce890ef1b68e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "86706f20171c58167b4acca46a66a4039d6b7927543b5ed944b7311c3cb52de0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5ee0df2ed681b78281b2364581f9af3be84a1efc0bf625051ebfd8f4b01cf25c9c707078b6ebe473228d642ef60611a2143cc50bc60aadc48e7fb983e79cff56"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "72034159ac6001fd6644b8400d684fb0e87cb222067ea3c240a2c31894f0db66"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "245d106fe9ee980df8e8f6575ebe7c13bb95ac16d005b0e98765b71e04fab368f81fe1fba44544af4f3a5269cb54a3435defdbc18687d780913a1141e813de08"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8a352acf870f520d9075a3d8cae1bbf67020c76520a284075b67395a58686e6e0beace08f14c3da7ba191d841abeecf6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bb240da77f9662c3bbe4f07503c9649cb422661bbc56ca09c33013a7a3291b7817c3f6df752b458a42526da6c063cf39"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.okhttp3/okhttp@4.12.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/okhttp"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar",
+      "group" : "com.squareup.okio",
+      "name" : "okio-jvm",
+      "version" : "3.6.0",
+      "description" : "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "26370180ff99a7e8a12dcaac2a70cc6e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5600569133b7bdefe1daf9ec7f4abeb6d13e1786"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a592e93651fb5e335212bb25c1cf474c1b1076eda68d53cbdc82c383cbdd60114a62b698ca92a3b4b5e416d637a70f2ddabbf8a05551c62d59a240c3e3c3d2c6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "95baa62978b92951e1921749529688efa24d0a329843427fe822cc4e90399483"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f2fca794345a93448b2c770c2525586b661447acbac32142fba0152320c164b5cd27d2d6a478e72e72c54ff4e0e93eaa729529b6f5aefa7e6d7b732d0d9532b7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "825856eb690645dbaaa02a6047ebbfe2b2c0a9191d37c177b216160bd89286e98695fc91cd75a9b6ac7e8d1f3a106ff6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "07c656a88258ed39d50941355e955dfaa74dad3f128ff48e8c2654a53607e940ca3f3383f4f97f1b9e91670734ff1424"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/okio/"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okio/okio@3.6.0?type=jar",
+      "group" : "com.squareup.okio",
+      "name" : "okio",
+      "version" : "3.6.0",
+      "description" : "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "990f7b25bbd4fee8787ffabf89aa229f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8bf9683c80762d7dd47db12b68e99abea2a7ae05"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8e63292e5c53bb93c4a6b0c213e79f15990fed250c1340f1c343880e1c9c39b5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1c3e2933a386af47266229824744245799a9f77f7f3d3bb44428eb81f02d5df6993e864c8fa794caf08a98fd81a89d5d670037226345a570905d8229c1e55c3b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "525741a53ff92457979461c8ccb7e1ec4cf4b8adf48dab201c5975cb8911c14f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "95759b086a3a2df1d90c3765fa297e859744de03e0877f515a360af8a33164c76b81c88a6c9cad01766aece61c50148a815ca21d341d9bdc021e3e0058af1a72"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e4ec9777dd2370075b21251db31a9e0562ef1ac142f7a9b114e7ff441995da9650014d59a53515255c5ae46397cb83ed"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "79ae75c700d8f9d79f06a3a1b5a6c7b761169135342a41522ee531b6251a10bca60659af6bc41a23661f0538f9e5c1ea"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.okio/okio@3.6.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/okio/"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/dev.langchain4j/langchain4j-bom@1.18.1?type=pom",
+      "group" : "dev.langchain4j",
+      "name" : "langchain4j-bom",
+      "version" : "1.18.1",
+      "description" : "Bill of Materials POM for getting full, complete set of compatible versions of LangChain4j modules",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/dev.langchain4j/langchain4j-bom@1.18.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/langchain4j/langchain4j/tree/main/langchain4j-bom"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/dev.langchain4j/langchain4j-community-bom@1.19.0-beta29?type=pom",
+      "group" : "dev.langchain4j",
+      "name" : "langchain4j-community-bom",
+      "version" : "1.19.0-beta29",
+      "description" : "Bill of Materials POM for getting full, complete set of compatible versions of LangChain4j Community modules",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/dev.langchain4j/langchain4j-community-bom@1.19.0-beta29?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/langchain4j/langchain4j-community/langchain4j-community-bom"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.grpc/grpc-bom@1.75.0?type=pom",
+      "group" : "io.grpc",
+      "name" : "grpc-bom",
+      "version" : "1.75.0",
+      "description" : "gRPC: BOM",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.grpc/grpc-bom@1.75.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/grpc/grpc-java"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.kestra/platform@2.0.7?type=pom",
+      "group" : "io.kestra",
+      "name" : "platform",
+      "version" : "2.0.7",
+      "description" : "io.kestra:platform:2.0.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.kestra/platform@2.0.7?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/kestra-io/kestra"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.kotest/kotest-bom@5.9.1?type=pom",
+      "group" : "io.kotest",
+      "name" : "kotest-bom",
+      "version" : "5.9.1",
+      "description" : "Kotlin Test Framework",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.kotest/kotest-bom@5.9.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/kotest/kotest/"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.ktor/ktor-bom@2.3.13?type=pom",
+      "group" : "io.ktor",
+      "name" : "ktor-bom",
+      "version" : "2.3.13",
+      "description" : "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.ktor/ktor-bom@2.3.13?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/ktorio/ktor.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micrometer/micrometer-bom@1.15.12?type=pom",
+      "group" : "io.micrometer",
+      "name" : "micrometer-bom",
+      "version" : "1.15.12",
+      "description" : "Micrometer BOM (Bill of Materials) for managing Micrometer artifact versions",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micrometer/micrometer-bom@1.15.12?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.acme/micronaut-acme-bom@5.5.0?type=pom",
+      "group" : "io.micronaut.acme",
+      "name" : "micronaut-acme-bom",
+      "version" : "5.5.0",
+      "description" : "Extensions to integrate Micronaut and Acme",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.acme/micronaut-acme-bom@5.5.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-acme.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.aot/micronaut-aot-bom@2.9.0?type=pom",
+      "group" : "io.micronaut.aot",
+      "name" : "micronaut-aot-bom",
+      "version" : "2.9.0",
+      "description" : "Build time optimizations for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.aot/micronaut-aot-bom@2.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-aot.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.aws/micronaut-aws-bom@4.11.0?type=pom",
+      "group" : "io.micronaut.aws",
+      "name" : "micronaut-aws-bom",
+      "version" : "4.11.0",
+      "description" : "Provides integration between Micronaut and Amazon Web Services (AWS)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.aws/micronaut-aws-bom@4.11.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-aws.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.azure/micronaut-azure-bom@5.12.0?type=pom",
+      "group" : "io.micronaut.azure",
+      "name" : "micronaut-azure-bom",
+      "version" : "5.12.0",
+      "description" : "Micronaut projects for Microsoft Azure",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.azure/micronaut-azure-bom@5.12.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-azure.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.beanvalidation/micronaut-hibernate-validator-bom@4.8.0?type=pom",
+      "group" : "io.micronaut.beanvalidation",
+      "name" : "micronaut-hibernate-validator-bom",
+      "version" : "4.8.0",
+      "description" : "Provides integration between Micronaut and Hibernate Validator",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.beanvalidation/micronaut-hibernate-validator-bom@4.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-hibernate-validator.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.cache/micronaut-cache-bom@5.3.0?type=pom",
+      "group" : "io.micronaut.cache",
+      "name" : "micronaut-cache-bom",
+      "version" : "5.3.0",
+      "description" : "Cache support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.cache/micronaut-cache-bom@5.3.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-cache.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.cassandra/micronaut-cassandra-bom@6.7.0?type=pom",
+      "group" : "io.micronaut.cassandra",
+      "name" : "micronaut-cassandra-bom",
+      "version" : "6.7.0",
+      "description" : "Provides integration between Micronaut and Cassandra",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.cassandra/micronaut-cassandra-bom@6.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-cassandra.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.chatbots/micronaut-chatbots-bom@1.5.0?type=pom",
+      "group" : "io.micronaut.chatbots",
+      "name" : "micronaut-chatbots-bom",
+      "version" : "1.5.0",
+      "description" : "Ease the creation of ChatBots with the Micronaut Framework",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.chatbots/micronaut-chatbots-bom@1.5.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-chatbots.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.coherence/micronaut-coherence-bom@5.1.0?type=pom",
+      "group" : "io.micronaut.coherence",
+      "name" : "micronaut-coherence-bom",
+      "version" : "5.1.0",
+      "description" : "Integration between Micronaut and Oracle Coherence",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.coherence/micronaut-coherence-bom@5.1.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-coherence.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.controlpanel/micronaut-control-panel-bom@1.10.0?type=pom",
+      "group" : "io.micronaut.controlpanel",
+      "name" : "micronaut-control-panel-bom",
+      "version" : "1.10.0",
+      "description" : "The Micronaut Control Panel module provides a web UI that allows you to view and manage the state of your Micronaut application, typically in a development environment.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.controlpanel/micronaut-control-panel-bom@1.10.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-control-panel.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.crac/micronaut-crac-bom@2.7.0?type=pom",
+      "group" : "io.micronaut.crac",
+      "name" : "micronaut-crac-bom",
+      "version" : "2.7.0",
+      "description" : "Adds support for CRaC (Coordinated Restore at Checkpoint) to the Micronaut Framework.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.crac/micronaut-crac-bom@2.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-crac.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.data/micronaut-data-bom@4.14.5?type=pom",
+      "group" : "io.micronaut.data",
+      "name" : "micronaut-data-bom",
+      "version" : "4.14.5",
+      "description" : "Data Repository Support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.data/micronaut-data-bom@4.14.5?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-data.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.discovery/micronaut-discovery-client-bom@4.7.2?type=pom",
+      "group" : "io.micronaut.discovery",
+      "name" : "micronaut-discovery-client-bom",
+      "version" : "4.7.2",
+      "description" : "Adds Service Discovery Features for Eureka and Consul",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.discovery/micronaut-discovery-client-bom@4.7.2?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-discovery-client.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.eclipsestore/micronaut-eclipsestore-bom@1.10.0?type=pom",
+      "group" : "io.micronaut.eclipsestore",
+      "name" : "micronaut-eclipsestore-bom",
+      "version" : "1.10.0",
+      "description" : "Micronaut integration with EclipseStore",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.eclipsestore/micronaut-eclipsestore-bom@1.10.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-eclipsestore.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.elasticsearch/micronaut-elasticsearch-bom@5.10.0?type=pom",
+      "group" : "io.micronaut.elasticsearch",
+      "name" : "micronaut-elasticsearch-bom",
+      "version" : "5.10.0",
+      "description" : "Integration between Micronaut and Elasticsearch",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.elasticsearch/micronaut-elasticsearch-bom@5.10.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-elasticsearch.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.email/micronaut-email-bom@2.10.1?type=pom",
+      "group" : "io.micronaut.email",
+      "name" : "micronaut-email-bom",
+      "version" : "2.10.1",
+      "description" : "Integration with Transaction Email Providers",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.email/micronaut-email-bom@2.10.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-email.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.flyway/micronaut-flyway-bom@7.9.2?type=pom",
+      "group" : "io.micronaut.flyway",
+      "name" : "micronaut-flyway-bom",
+      "version" : "7.9.2",
+      "description" : "Integration between Micronaut and Flyway",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.flyway/micronaut-flyway-bom@7.9.2?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-flyway.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.gcp/micronaut-gcp-bom@5.13.1?type=pom",
+      "group" : "io.micronaut.gcp",
+      "name" : "micronaut-gcp-bom",
+      "version" : "5.13.1",
+      "description" : "Provides integration between Micronaut and Google Cloud Platform (GCP)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.gcp/micronaut-gcp-bom@5.13.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-gcp.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.graal-languages/micronaut-graal-languages-bom@1.2.0?type=pom",
+      "group" : "io.micronaut.graal-languages",
+      "name" : "micronaut-graal-languages-bom",
+      "version" : "1.2.0",
+      "description" : "Integrate Graal based dynamic languages with Micronaut Framework",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.graal-languages/micronaut-graal-languages-bom@1.2.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-graal-languages.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.graphql/micronaut-graphql-bom@4.8.0?type=pom",
+      "group" : "io.micronaut.graphql",
+      "name" : "micronaut-graphql-bom",
+      "version" : "4.8.0",
+      "description" : "Extensions to integrate Micronaut and GraphQL",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.graphql/micronaut-graphql-bom@4.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-graphql.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.groovy/micronaut-groovy-bom@4.7.0?type=pom",
+      "group" : "io.micronaut.groovy",
+      "name" : "micronaut-groovy-bom",
+      "version" : "4.7.0",
+      "description" : "Projects that enhance the Micronaut and Groovy language experience",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.groovy/micronaut-groovy-bom@4.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-groovy.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.grpc/micronaut-grpc-bom@4.13.0?type=pom",
+      "group" : "io.micronaut.grpc",
+      "name" : "micronaut-grpc-bom",
+      "version" : "4.13.0",
+      "description" : "Integration between Micronaut and gRPC",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.grpc/micronaut-grpc-bom@4.13.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-grpc.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.guice/micronaut-guice-bom@1.3.0?type=pom",
+      "group" : "io.micronaut.guice",
+      "name" : "micronaut-guice-bom",
+      "version" : "1.3.0",
+      "description" : "Allows Importing Guice Modules",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.guice/micronaut-guice-bom@1.3.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-guice.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.guides/micronaut-guides-bom@0.1.0?type=pom",
+      "group" : "io.micronaut.guides",
+      "name" : "micronaut-guides-bom",
+      "version" : "0.1.0",
+      "description" : "Library to write software tutorials.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.guides/micronaut-guides-bom@0.1.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-guides.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.jaxrs/micronaut-jaxrs-bom@4.10.0?type=pom",
+      "group" : "io.micronaut.jaxrs",
+      "name" : "micronaut-jaxrs-bom",
+      "version" : "4.10.0",
+      "description" : "JAX-RS Support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.jaxrs/micronaut-jaxrs-bom@4.10.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-jaxrs.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.jms/micronaut-jms-bom@4.3.0?type=pom",
+      "group" : "io.micronaut.jms",
+      "name" : "micronaut-jms-bom",
+      "version" : "4.3.0",
+      "description" : "Integration between Micronaut and Java Messaging Service (JMS)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.jms/micronaut-jms-bom@4.3.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-jms.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.jmx/micronaut-jmx-bom@4.7.0?type=pom",
+      "group" : "io.micronaut.jmx",
+      "name" : "micronaut-jmx-bom",
+      "version" : "4.7.0",
+      "description" : "Integrates JMX Monitoring",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.jmx/micronaut-jmx-bom@4.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-jmx.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.jsonschema/micronaut-json-schema-bom@1.7.4?type=pom",
+      "group" : "io.micronaut.jsonschema",
+      "name" : "micronaut-json-schema-bom",
+      "version" : "1.7.4",
+      "description" : "JSON schema support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.jsonschema/micronaut-json-schema-bom@1.7.4?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-json-schema.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.kafka/micronaut-kafka-bom@5.9.0?type=pom",
+      "group" : "io.micronaut.kafka",
+      "name" : "micronaut-kafka-bom",
+      "version" : "5.9.0",
+      "description" : "Integration between Micronaut and Kafka Messaging",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.kafka/micronaut-kafka-bom@5.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-kafka.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.kotlin/micronaut-kotlin-bom@4.7.0?type=pom",
+      "group" : "io.micronaut.kotlin",
+      "name" : "micronaut-kotlin-bom",
+      "version" : "4.7.0",
+      "description" : "Includes extensions to Micronaut for Kotlin",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.kotlin/micronaut-kotlin-bom@4.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-kotlin.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.kubernetes/micronaut-kubernetes-bom@7.1.1?type=pom",
+      "group" : "io.micronaut.kubernetes",
+      "name" : "micronaut-kubernetes-bom",
+      "version" : "7.1.1",
+      "description" : "Integration between Micronaut and Kubernetes",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.kubernetes/micronaut-kubernetes-bom@7.1.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-kubernetes.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.langchain4j/micronaut-langchain4j-bom@1.3.0?type=pom",
+      "group" : "io.micronaut.langchain4j",
+      "name" : "micronaut-langchain4j-bom",
+      "version" : "1.3.0",
+      "description" : "Integration between Micronaut and Langchain4j",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.langchain4j/micronaut-langchain4j-bom@1.3.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-langchain4j.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.liquibase/micronaut-liquibase-bom@6.9.0?type=pom",
+      "group" : "io.micronaut.liquibase",
+      "name" : "micronaut-liquibase-bom",
+      "version" : "6.9.0",
+      "description" : "Integration between Micronaut and Liquibase",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.liquibase/micronaut-liquibase-bom@6.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-liquibase.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.logging/micronaut-logging-bom@1.7.5?type=pom",
+      "group" : "io.micronaut.logging",
+      "name" : "micronaut-logging-bom",
+      "version" : "1.7.5",
+      "description" : "BOM containing the logging dependencies for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.logging/micronaut-logging-bom@1.7.5?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-logging.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.mcp/micronaut-mcp-bom@0.0.20?type=pom",
+      "group" : "io.micronaut.mcp",
+      "name" : "micronaut-mcp-bom",
+      "version" : "0.0.20",
+      "description" : "Integration with MCP (Model Context Protocol).",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.mcp/micronaut-mcp-bom@0.0.20?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-mcp.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.micrometer/micronaut-micrometer-bom@5.13.3?type=pom",
+      "group" : "io.micronaut.micrometer",
+      "name" : "micronaut-micrometer-bom",
+      "version" : "5.13.3",
+      "description" : "Provides integration between Micronaut and Micrometer",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.micrometer/micronaut-micrometer-bom@5.13.3?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-micrometer.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.microstream/micronaut-microstream-bom@2.9.0?type=pom",
+      "group" : "io.micronaut.microstream",
+      "name" : "micronaut-microstream-bom",
+      "version" : "2.9.0",
+      "description" : "Micronaut integration with MicroStream",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.microstream/micronaut-microstream-bom@2.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-microstream.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.mongodb/micronaut-mongo-bom@5.7.0?type=pom",
+      "group" : "io.micronaut.mongodb",
+      "name" : "micronaut-mongo-bom",
+      "version" : "5.7.0",
+      "description" : "Integration between Micronaut and MongoDB",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.mongodb/micronaut-mongo-bom@5.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-mongodb.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.mqtt/micronaut-mqtt-bom@3.7.0?type=pom",
+      "group" : "io.micronaut.mqtt",
+      "name" : "micronaut-mqtt-bom",
+      "version" : "3.7.0",
+      "description" : "Integration between Micronaut and MQTT",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.mqtt/micronaut-mqtt-bom@3.7.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-mqtt.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.multitenancy/micronaut-multitenancy-bom@5.8.0?type=pom",
+      "group" : "io.micronaut.multitenancy",
+      "name" : "micronaut-multitenancy-bom",
+      "version" : "5.8.0",
+      "description" : "Help with common tasks such as tenant resolution for multi-tenancy aware Micronaut applications.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.multitenancy/micronaut-multitenancy-bom@5.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-multitenancy.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.nats/micronaut-nats-bom@4.9.0?type=pom",
+      "group" : "io.micronaut.nats",
+      "name" : "micronaut-nats-bom",
+      "version" : "4.9.0",
+      "description" : "Integration between Micronaut and nats.io",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.nats/micronaut-nats-bom@4.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-nats.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.neo4j/micronaut-neo4j-bom@6.11.0?type=pom",
+      "group" : "io.micronaut.neo4j",
+      "name" : "micronaut-neo4j-bom",
+      "version" : "6.11.0",
+      "description" : "Integration between Micronaut and Neo4j",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.neo4j/micronaut-neo4j-bom@6.11.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-neo4j.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.objectstorage/micronaut-object-storage-bom@2.10.0?type=pom",
+      "group" : "io.micronaut.objectstorage",
+      "name" : "micronaut-object-storage-bom",
+      "version" : "2.10.0",
+      "description" : "Micronaut Object Storage provides a uniform API to create, read and delete objects in the major cloud providers",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.objectstorage/micronaut-object-storage-bom@2.10.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-object-storage.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.openapi/micronaut-openapi-bom@6.20.1?type=pom",
+      "group" : "io.micronaut.openapi",
+      "name" : "micronaut-openapi-bom",
+      "version" : "6.20.1",
+      "description" : "Configuration to integrate Micronaut and OpenAPI/Swagger",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.openapi/micronaut-openapi-bom@6.20.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-openapi.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.openrewrite/micronaut-openrewrite-bom@0.0.3?type=pom",
+      "group" : "io.micronaut.openrewrite",
+      "name" : "micronaut-openrewrite-bom",
+      "version" : "0.0.3",
+      "description" : "OpenRewrite recipes for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.openrewrite/micronaut-openrewrite-bom@0.0.3?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-openrewrite.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.opensearch/micronaut-opensearch-bom@1.6.0?type=pom",
+      "group" : "io.micronaut.opensearch",
+      "name" : "micronaut-opensearch-bom",
+      "version" : "1.6.0",
+      "description" : "Micronaut integration with OpenSearch",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.opensearch/micronaut-opensearch-bom@1.6.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-opensearch.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.oraclecloud/micronaut-oraclecloud-bom@5.6.5?type=pom",
+      "group" : "io.micronaut.oraclecloud",
+      "name" : "micronaut-oraclecloud-bom",
+      "version" : "5.6.5",
+      "description" : "Provides integration between Micronaut and Oracle Cloud",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.oraclecloud/micronaut-oraclecloud-bom@5.6.5?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-oracle-cloud.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.picocli/micronaut-picocli-bom@5.9.0?type=pom",
+      "group" : "io.micronaut.picocli",
+      "name" : "micronaut-picocli-bom",
+      "version" : "5.9.0",
+      "description" : "Provides integration between Micronaut and Picocli",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.picocli/micronaut-picocli-bom@5.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-picocli.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.platform/micronaut-platform@4.10.18?type=pom",
+      "group" : "io.micronaut.platform",
+      "name" : "micronaut-platform",
+      "version" : "4.10.18",
+      "description" : "Bill-Of-Materials (BOM) and Gradle version catalogs for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.platform/micronaut-platform@4.10.18?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-platform.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.problem/micronaut-problem-json-bom@3.9.0?type=pom",
+      "group" : "io.micronaut.problem",
+      "name" : "micronaut-problem-json-bom",
+      "version" : "3.9.0",
+      "description" : "Produce application/problem+json responses from a Micronaut application.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.problem/micronaut-problem-json-bom@3.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-problem-json.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.pulsar/micronaut-pulsar-bom@2.6.0?type=pom",
+      "group" : "io.micronaut.pulsar",
+      "name" : "micronaut-pulsar-bom",
+      "version" : "2.6.0",
+      "description" : "Integration between Micronaut and Apache Pulsar",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.pulsar/micronaut-pulsar-bom@2.6.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-pulsar.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.r2dbc/micronaut-r2dbc-bom@6.2.0?type=pom",
+      "group" : "io.micronaut.r2dbc",
+      "name" : "micronaut-r2dbc-bom",
+      "version" : "6.2.0",
+      "description" : "Integration with Micronaut and R2DBC",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.r2dbc/micronaut-r2dbc-bom@6.2.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-r2dbc.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.rabbitmq/micronaut-rabbitmq-bom@4.8.0?type=pom",
+      "group" : "io.micronaut.rabbitmq",
+      "name" : "micronaut-rabbitmq-bom",
+      "version" : "4.8.0",
+      "description" : "Integration between Micronaut and RabbitMQ",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.rabbitmq/micronaut-rabbitmq-bom@4.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-rabbitmq.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.reactor/micronaut-reactor-bom@3.9.1?type=pom",
+      "group" : "io.micronaut.reactor",
+      "name" : "micronaut-reactor-bom",
+      "version" : "3.9.1",
+      "description" : "Integration between Micronaut and Reactor",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.reactor/micronaut-reactor-bom@3.9.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-reactor.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.redis/micronaut-redis-bom@6.9.0?type=pom",
+      "group" : "io.micronaut.redis",
+      "name" : "micronaut-redis-bom",
+      "version" : "6.9.0",
+      "description" : "Integration between Micronaut and Redis",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.redis/micronaut-redis-bom@6.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-redis.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.rss/micronaut-rss-bom@4.8.1?type=pom",
+      "group" : "io.micronaut.rss",
+      "name" : "micronaut-rss-bom",
+      "version" : "4.8.1",
+      "description" : "Eases the creation of RSS feeds with Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.rss/micronaut-rss-bom@4.8.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-rss.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.rxjava2/micronaut-rxjava2-bom@2.9.0?type=pom",
+      "group" : "io.micronaut.rxjava2",
+      "name" : "micronaut-rxjava2-bom",
+      "version" : "2.9.0",
+      "description" : "Integration between Micronaut and RxJava 2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.rxjava2/micronaut-rxjava2-bom@2.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-rxjava2.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.rxjava3/micronaut-rxjava3-bom@3.9.0?type=pom",
+      "group" : "io.micronaut.rxjava3",
+      "name" : "micronaut-rxjava3-bom",
+      "version" : "3.9.0",
+      "description" : "Integration between Micronaut and RxJava 3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.rxjava3/micronaut-rxjava3-bom@3.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-rxjava3.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.security/micronaut-security-bom@4.15.2?type=pom",
+      "group" : "io.micronaut.security",
+      "name" : "micronaut-security-bom",
+      "version" : "4.15.2",
+      "description" : "Official Security Solution for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.security/micronaut-security-bom@4.15.2?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-security.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.serde/micronaut-serde-bom@2.16.2?type=pom",
+      "group" : "io.micronaut.serde",
+      "name" : "micronaut-serde-bom",
+      "version" : "2.16.2",
+      "description" : "Enables serialization/deserialization in Micronaut applications using build time information",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.serde/micronaut-serde-bom@2.16.2?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-serialization.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.servlet/micronaut-servlet-bom@5.6.1?type=pom",
+      "group" : "io.micronaut.servlet",
+      "name" : "micronaut-servlet-bom",
+      "version" : "5.6.1",
+      "description" : "Provides integration between Micronaut and the Servlet API",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.servlet/micronaut-servlet-bom@5.6.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-servlet.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.session/micronaut-session-bom@4.8.0?type=pom",
+      "group" : "io.micronaut.session",
+      "name" : "micronaut-session-bom",
+      "version" : "4.8.0",
+      "description" : "HTTP Session support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.session/micronaut-session-bom@4.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-session.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.sourcegen/micronaut-sourcegen-bom@1.8.5?type=pom",
+      "group" : "io.micronaut.sourcegen",
+      "name" : "micronaut-sourcegen-bom",
+      "version" : "1.8.5",
+      "description" : "Micronaut SourceGen exposes a language-neutral API for source code generation.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.sourcegen/micronaut-sourcegen-bom@1.8.5?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-sourcegen.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.spring/micronaut-spring-bom@5.12.1?type=pom",
+      "group" : "io.micronaut.spring",
+      "name" : "micronaut-spring-bom",
+      "version" : "5.12.1",
+      "description" : "Extensions to integrate Micronaut and Spring",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.spring/micronaut-spring-bom@5.12.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-spring.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.sql/micronaut-sql-bom@6.3.4?type=pom",
+      "group" : "io.micronaut.sql",
+      "name" : "micronaut-sql-bom",
+      "version" : "6.3.4",
+      "description" : "Projects to support SQL Database access in Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.sql/micronaut-sql-bom@6.3.4?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-sql.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.test/micronaut-test-bom@4.10.3?type=pom",
+      "group" : "io.micronaut.test",
+      "name" : "micronaut-test-bom",
+      "version" : "4.10.3",
+      "description" : "Testing Framework Extensions for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.test/micronaut-test-bom@4.10.3?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-test.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.testresources/micronaut-test-resources-bom@2.10.1?type=pom",
+      "group" : "io.micronaut.testresources",
+      "name" : "micronaut-test-resources-bom",
+      "version" : "2.10.1",
+      "description" : "Test resources integration (like Testcontainers) for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.testresources/micronaut-test-resources-bom@2.10.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-test-resources.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.toml/micronaut-toml-bom@2.8.0?type=pom",
+      "group" : "io.micronaut.toml",
+      "name" : "micronaut-toml-bom",
+      "version" : "2.8.0",
+      "description" : "Support for the TOML configuration format for the Micronaut framework",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.toml/micronaut-toml-bom@2.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-toml.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.tracing/micronaut-tracing-bom@7.2.0?type=pom",
+      "group" : "io.micronaut.tracing",
+      "name" : "micronaut-tracing-bom",
+      "version" : "7.2.0",
+      "description" : "Adds Distributed Tracing Support",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.tracing/micronaut-tracing-bom@7.2.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-tracing.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.validation/micronaut-validation-bom@4.12.0?type=pom",
+      "group" : "io.micronaut.validation",
+      "name" : "micronaut-validation-bom",
+      "version" : "4.12.0",
+      "description" : "Validation support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.validation/micronaut-validation-bom@4.12.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-validation.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.views/micronaut-views-bom@5.9.0?type=pom",
+      "group" : "io.micronaut.views",
+      "name" : "micronaut-views-bom",
+      "version" : "5.9.0",
+      "description" : "Provides integration between Micronaut and server-side views technologies",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.views/micronaut-views-bom@5.9.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-views.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut.xml/micronaut-jackson-xml-bom@4.8.0?type=pom",
+      "group" : "io.micronaut.xml",
+      "name" : "micronaut-jackson-xml-bom",
+      "version" : "4.8.0",
+      "description" : "Jackson XML support for Micronaut",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut.xml/micronaut-jackson-xml-bom@4.8.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-jackson-xml.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.micronaut/micronaut-core-bom@4.10.28?type=pom",
+      "group" : "io.micronaut",
+      "name" : "micronaut-core-bom",
+      "version" : "4.10.28",
+      "description" : "Core components supporting the Micronaut Framework",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.micronaut/micronaut-core-bom@4.10.28?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "scm:git@github.com:micronaut-projects/micronaut-core.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.netty/netty-bom@4.2.18.Final?type=pom",
+      "publisher" : "The Netty Project",
+      "group" : "io.netty",
+      "name" : "netty-bom",
+      "version" : "4.2.18.Final",
+      "description" : "Netty (Bill of Materials)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.netty/netty-bom@4.2.18.Final?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://netty.io/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom-alpha@2.20.1-alpha?type=pom",
+      "group" : "io.opentelemetry.instrumentation",
+      "name" : "opentelemetry-instrumentation-bom-alpha",
+      "version" : "2.20.1-alpha",
+      "description" : "OpenTelemetry Instrumentation Bill of Materials (Alpha)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom-alpha@2.20.1-alpha?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom@2.20.1?type=pom",
+      "group" : "io.opentelemetry.instrumentation",
+      "name" : "opentelemetry-instrumentation-bom",
+      "version" : "2.20.1",
+      "description" : "OpenTelemetry Instrumentation Bill of Materials",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom@2.20.1?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-bom-alpha@1.54.1-alpha?type=pom",
+      "group" : "io.opentelemetry",
+      "name" : "opentelemetry-bom-alpha",
+      "version" : "1.54.1-alpha",
+      "description" : "OpenTelemetry Bill of Materials (Alpha)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.opentelemetry/opentelemetry-bom-alpha@1.54.1-alpha?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom",
+      "group" : "io.opentelemetry",
+      "name" : "opentelemetry-bom",
+      "version" : "1.54.1",
+      "description" : "OpenTelemetry Bill of Materials",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.projectreactor/reactor-bom@2024.0.11?type=pom",
+      "publisher" : "reactor",
+      "group" : "io.projectreactor",
+      "name" : "reactor-bom",
+      "version" : "2024.0.11",
+      "description" : "Bill of materials to make sure a consistent set of versions is used for Reactor 3.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.projectreactor/reactor-bom@2024.0.11?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/reactor"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/reactor"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/reactor/reactor"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.qameta.allure/allure-bom@2.35.4?type=pom",
+      "publisher" : "Qameta Software",
+      "group" : "io.qameta.allure",
+      "name" : "allure-bom",
+      "version" : "2.35.4",
+      "description" : "This Bill of Materials POM can be used to ease dependency management when referencing multiple Allure artifacts using Gradle or Maven.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.qameta.allure/allure-bom@2.35.4?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://qameta.io/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/allure-framework/allure-java/actions"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/allure-framework/allure-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/allure-framework/allure-java"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.rest-assured/rest-assured-bom@5.5.6?type=pom",
+      "group" : "io.rest-assured",
+      "name" : "rest-assured-bom",
+      "version" : "5.5.6",
+      "description" : "Centralized dependencyManagement for the REST Assured project",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.rest-assured/rest-assured-bom@5.5.6?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : ""
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/group/rest-assured/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/rest-assured/rest-assured/tree/master"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.zipkin.brave/brave-bom@6.3.0?type=pom",
+      "publisher" : "OpenZipkin",
+      "group" : "io.zipkin.brave",
+      "name" : "brave-bom",
+      "version" : "6.3.0",
+      "description" : "Bill Of Materials POM for all Brave artifacts",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.zipkin.brave/brave-bom@6.3.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://zipkin.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/openzipkin/brave/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/openzipkin/brave"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.zipkin.reporter2/zipkin-reporter-bom@3.5.1?type=pom",
+      "publisher" : "OpenZipkin",
+      "group" : "io.zipkin.reporter2",
+      "name" : "zipkin-reporter-bom",
+      "version" : "3.5.1",
+      "description" : "Bill Of Materials POM for all Zipkin reporter artifacts",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.zipkin.reporter2/zipkin-reporter-bom@3.5.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://zipkin.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/openzipkin/zipkin-reporter-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/openzipkin/zipkin-reporter-java"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.groovy/groovy-bom@4.0.28?type=pom",
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.groovy",
+      "name" : "groovy-bom",
+      "version" : "4.0.28",
+      "description" : "Groovy: A powerful multi-faceted language for the JVM",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.groovy/groovy-bom@4.0.28?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://apache.org"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/GROOVY"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/groovy-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/groovy.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-bom@2.25.3?type=pom",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-bom",
+      "version" : "2.25.3",
+      "description" : "Apache Log4j Bill-of-Materials",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-bom@2.25.3?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.apache.org/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/logging-log4j2/actions"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/apache/logging-log4j2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/logging-log4j2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-bom@12.0.31?type=pom",
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-bom",
+      "version" : "12.0.31",
+      "description" : "Jetty Core BOM artifact",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-bom@12.0.31?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://webtide.com"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://www.eclipse.org/lists/jetty-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-core/jetty-bom"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jdbi/jdbi3-bom@3.49.6?type=pom",
+      "group" : "org.jdbi",
+      "name" : "jdbi3-bom",
+      "version" : "3.49.6",
+      "description" : "Jdbi Bill of Materials (BOM). Import this module into a project to get a list of all public modules with a specific version.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jdbi/jdbi3-bom@3.49.6?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jdbi/jdbi/jdbi3-bom/"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-bom@1.9.25?type=pom",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-bom",
+      "version" : "1.9.25",
+      "description" : "Kotlin is a statically typed programming language that compiles to JVM byte codes and JavaScript",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-bom@1.9.25?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.25?type=pom",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib-common",
+      "version" : "1.9.25",
+      "description" : "Kotlin Common Standard Library (legacy, use kotlin-stdlib instead)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.25?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.25?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib-jdk7",
+      "version" : "1.9.25",
+      "description" : "Kotlin Standard Library JDK 7 extension",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "00b574c013f45be45599d071dbd818f4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1c166692314a2639e5edfed0d23ed7eee4a5c7a5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fb5373dd761b4e93e3f538c5e853bba38a71143a181536e8f193ed6e4eddb3b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3d529f26e14735d7dba2ad126d7cf2e92904daf7e71610563acb6bb13a58fe89437b4ea1f2f1a0f1abd985333709198e257540b08b1509293b5c75d19e001957"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b3243e23996177a8b854642a3f1fdb4c00f235ad7724145fd66081fe6c9f99f7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b0d110ee0a23e6cbcb7e34d5bdffd1c8e5b84fbfd93fa7f6f58058dec8bbda946dac030d14b35250e10dc9f61b91045eb8bff32d37cb611a74ba5985d7072899"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "de4e79aa327c38bb12be59cf5437612823a2d450b4f698623bd3729efc65391a3a676e0e456198fcd436e5cb8a41f3b2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9491aa784d899e9d12c0756d0c6f8191199d6749ec7a390566e18c78c4538800624aee51fa8dbf5d2a1f9cd1568deded"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.25?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.25?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib-jdk8",
+      "version" : "1.9.25",
+      "description" : "Kotlin Standard Library JDK 8 extension",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "34513d27003b6befef92733e27ca2485"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "20d44e880a284f7b5cd99dd69450b403073f49b2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f94fdf78390ce9be30383bf039c5a935caea33b11f037fc7f86bbcee19287e5a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "98b2213f68ee16cafdaca3f1caee97f71f6f16cade689840aec52ad833737381fe8483105990eed06623d6a96b32b024c472597670e167f112fb130e600d4bf8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f9ea65a93943cb98c1e74bbbd34288b6d2ffb899568e34865179de2b722804c9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6ceca30a23ec00d814a5050009ad6747e646f194c74111bb7c2042e1ebd3dc089673fdf303861a43c4c89e62c5f8fde927953fa2f4a2fa711c4e9837c1a96883"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "87371bc178898dfb3df16bffed44fe098a385d53b6d2436ad0ba43d4809cac96414aef5d23ae2fd8b6ad59c2e31b83a1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cbcf7ae5b6e8f78f9dc9a07806d72216839f181240bd711e8634b2b20fb5ea982becb6b73ace3c69c8d2952f4176b41d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.25?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.25?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib",
+      "version" : "1.9.25",
+      "description" : "Kotlin Standard Library",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "33aff849edc75a29bfcfe2b47258b3de"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f700a2f2b8f0d6d0fde48f56d894dc722fb029d7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f9cdcdbff1f5de85380ae526977e683726c2aa42db1ed6e6e50ae89e496e95fd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "453d9eb016259dc4582c206687ab9463b569680e89337df80d1a8bd08c3ea73b50ea84eec23afea76cc060b998b450f00d506b92d724f60c721a81b2189c6c33"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8c4b7a8332528cc9ae0ea9f5d161522a091f4ceb3beafe1f1846ee02572baa35"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4c6d0dfd389e334d73c2385ebb9ea392f861bb143acf916af68a6a6b0eda3485dd41a1eb658551e358d406c30a7ffa50d2c8a10a64a76417099eb21bafe18e6b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "741f1089335d6be517b37c316bbd5ad822ab03150357972c7cf95b7bae22b295803faea7a2c5fd6c1e90d682c821115b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "56aac846ad829fb124b5c54c9c9ece9553b28107d3f3fad0aefbd56a660948a3815c1e2ce2bb338ecd928afc861c6c71"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.25?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.8.1?type=pom",
+      "group" : "org.jetbrains.kotlinx",
+      "name" : "kotlinx-coroutines-bom",
+      "version" : "1.8.1",
+      "description" : "Coroutines support libraries for Kotlin",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.8.1?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/Kotlin/kotlinx.coroutines"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "group" : "org.jetbrains",
+      "name" : "annotations",
+      "version" : "13.0",
+      "description" : "A set of annotations used for code inspection support and code documentation.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f4fb462172517b46b6cd90003508515a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5622d0ffe410e7272e2bb9fae1006caedeb86d0c62d2d9f3929a3b3cdcdef1963218fcf0cede82e95ef9f4da3ed4a173fa055ee6e4038886376181e0423e02ff"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b4a80ea81c4bc7e364e07981465f547e8ed83031806eaf3b97dfb38f894f5b6f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "15b23bce818b4399b334dd632eb85de5a1b70c47fb9260561e70b1f726211c83bddbc957f3b4c32a1d8c687f9bc6c38d0a638c731cb5daf5b619aa725d6050c2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6bcde3a6e471d416522e6288474bc4f9115e2e8abf8ce5d300829bee4aa98dff73be7d8c6f0607f3d6d423c7f5abbf90"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f4d5a5d5a76b24c4751c8c52f2879b097d2430c3571c59b4630e8c871c9bdb08e24e803a14c24fc8d3378417f29b7244"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/intellij-community"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.json/json@20250107?type=jar",
+      "group" : "org.json",
+      "name" : "json",
+      "version" : "20250107",
+      "description" : "JSON is a light-weight, language independent, data interchange format. See http://www.JSON.org/ The files in this package implement JSON encoders/decoders in Java. It also includes the capability to convert between JSON and XML, HTTP headers, Cookies, and CDL. This is a reference implementation. There are a large number of JSON packages in Java. Perhaps someday the Java community will standardize on one. Until then, choose carefully.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "08f35c88f0313d32aadf58bf98a2cdf6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a1b5f0b5a1ce018b93a691c57ffc7d141b3a10f1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "85d4c1ab192d3117fd02c7fff1ec0fe63ade45cf56def7fe950ef060cf06e99f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "82142df039c74b74abec385d1be43211d662c39daec7ecdbbf82d86fa2fadeeb3fd3e0f93b2bad269d21e206815ceaeb32c9c3e6fde374124086ba3d62b8760e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9c2977c9cefce5aa4fa5309b772ab606faa5c3cf18c559f8981e99d45a7dc733"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fbaaf598c52d83ca1234466413bbd2bed202335c1268ee624134fc72083f3dd8c114704a26a881fb8b941baa910f80017ccc7580a37c831a131780dc7215f157"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5ddbc38b0fdaf7ae2ab5453a0b5e5575daa16b766882f2bb33c178f6000332a589af333390ff35c9f3f71c2bcede9190"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0ec2e196eb2e4984e30cc546c94170f3f38ee7884756caa80c14f3896597b01230abdfd2cd1902cf47ca66dfc6b6cb02"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://github.com/stleary/JSON-java/blob/master/LICENSE"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.json/json@20250107?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/douglascrockford/JSON-java.git"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.junit/junit-bom@5.14.0?type=pom",
+      "group" : "org.junit",
+      "name" : "junit-bom",
+      "version" : "5.14.0",
+      "description" : "This Bill of Materials POM can be used to ease dependency management when referencing multiple JUnit artifacts using Gradle or Maven.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.junit/junit-bom@5.14.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit-framework"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=pom",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "2.0.18",
+      "description" : "The slf4j API",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.spockframework/spock-bom@2.3-groovy-4.0?type=pom",
+      "group" : "org.spockframework",
+      "name" : "spock-bom",
+      "version" : "2.3-groovy-4.0",
+      "description" : "This bill of materials provides managed spock dependencies.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.spockframework/spock-bom@2.3-groovy-4.0?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.spockframework.org/spock"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.springframework/spring-framework-bom@6.2.16?type=pom",
+      "publisher" : "Spring IO",
+      "group" : "org.springframework",
+      "name" : "spring-framework-bom",
+      "version" : "6.2.16",
+      "description" : "Spring Framework (Bill of Materials)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.springframework/spring-framework-bom@6.2.16?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://spring.io/projects/spring-framework"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/spring-projects/spring-framework/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/spring-projects/spring-framework"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.testcontainers/testcontainers-bom@1.20.6?type=pom",
+      "group" : "org.testcontainers",
+      "name" : "testcontainers-bom",
+      "version" : "1.20.6",
+      "description" : "Isolated container management for Java code testing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.testcontainers/testcontainers-bom@1.20.6?type=pom",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/testcontainers/testcontainers-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/testcontainers/testcontainers-java/"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/software.amazon.awssdk/bom@2.54.2?type=pom",
+      "group" : "software.amazon.awssdk",
+      "name" : "bom",
+      "version" : "2.54.2",
+      "description" : "The AWS SDK for Java - BOM module holds the dependency managements for individual java clients.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/software.amazon.awssdk/bom@2.54.2?type=pom",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.amazonaws/aws-java-sdk-bom@1.12.787?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.auth0/java-jwt@4.5.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.azure/azure-sdk-bom@1.3.8?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.cloud/libraries-bom@26.86.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.protobuf/protobuf-bom@3.25.8?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.meilisearch.sdk/meilisearch-java@0.14.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.12.1?type=jar",
+        "pkg:maven/org.json/json@20250107?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+        "pkg:maven/com.auth0/java-jwt@4.5.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.oracle.coherence.ce/coherence-bom@25.03.2?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.okhttp3/okhttp@4.12.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.okio/okio@3.6.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.25?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.25?type=pom",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.25?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.okio/okio@3.6.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/dev.langchain4j/langchain4j-bom@1.18.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/dev.langchain4j/langchain4j-community-bom@1.19.0-beta29?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.grpc/grpc-bom@1.75.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.kestra.plugin/plugin-meilisearch@0.1.0-SNAPSHOT?project_path=%3A",
+      "dependsOn" : [
+        "pkg:maven/io.kestra/platform@2.0.7?type=pom",
+        "pkg:maven/com.meilisearch.sdk/meilisearch-java@0.14.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.kestra/platform@2.0.7?type=pom",
+      "dependsOn" : [
+        "pkg:maven/com.azure/azure-sdk-bom@1.3.8?type=pom",
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom",
+        "pkg:maven/dev.langchain4j/langchain4j-community-bom@1.19.0-beta29?type=pom",
+        "pkg:maven/com.google.cloud/libraries-bom@26.86.0?type=pom",
+        "pkg:maven/io.micronaut.platform/micronaut-platform@4.10.18?type=pom",
+        "pkg:maven/io.qameta.allure/allure-bom@2.35.4?type=pom",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=pom",
+        "pkg:maven/software.amazon.awssdk/bom@2.54.2?type=pom",
+        "pkg:maven/org.eclipse.jetty/jetty-bom@12.0.31?type=pom",
+        "pkg:maven/dev.langchain4j/langchain4j-bom@1.18.1?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.kotest/kotest-bom@5.9.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.ktor/ktor-bom@2.3.13?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micrometer/micrometer-bom@1.15.12?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.acme/micronaut-acme-bom@5.5.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.aot/micronaut-aot-bom@2.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.aws/micronaut-aws-bom@4.11.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/com.amazonaws/aws-java-sdk-bom@1.12.787?type=pom",
+        "pkg:maven/software.amazon.awssdk/bom@2.54.2?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.azure/micronaut-azure-bom@5.12.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/com.azure/azure-sdk-bom@1.3.8?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.beanvalidation/micronaut-hibernate-validator-bom@4.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.cache/micronaut-cache-bom@5.3.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.cassandra/micronaut-cassandra-bom@6.7.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.chatbots/micronaut-chatbots-bom@1.5.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.coherence/micronaut-coherence-bom@5.1.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/com.oracle.coherence.ce/coherence-bom@25.03.2?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.controlpanel/micronaut-control-panel-bom@1.10.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.crac/micronaut-crac-bom@2.7.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.data/micronaut-data-bom@4.14.5?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.discovery/micronaut-discovery-client-bom@4.7.2?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.eclipsestore/micronaut-eclipsestore-bom@1.10.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.elasticsearch/micronaut-elasticsearch-bom@5.10.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.email/micronaut-email-bom@2.10.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.flyway/micronaut-flyway-bom@7.9.2?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.gcp/micronaut-gcp-bom@5.13.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.graal-languages/micronaut-graal-languages-bom@1.2.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.graphql/micronaut-graphql-bom@4.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.groovy/micronaut-groovy-bom@4.7.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.apache.groovy/groovy-bom@4.0.28?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.grpc/micronaut-grpc-bom@4.13.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.grpc/grpc-bom@1.75.0?type=pom",
+        "pkg:maven/com.google.protobuf/protobuf-bom@3.25.8?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.guice/micronaut-guice-bom@1.3.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.guides/micronaut-guides-bom@0.1.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.jaxrs/micronaut-jaxrs-bom@4.10.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.jms/micronaut-jms-bom@4.3.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.jmx/micronaut-jmx-bom@4.7.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.jsonschema/micronaut-json-schema-bom@1.7.4?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.kafka/micronaut-kafka-bom@5.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.kotlin/micronaut-kotlin-bom@4.7.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.ktor/ktor-bom@2.3.13?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.kubernetes/micronaut-kubernetes-bom@7.1.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.langchain4j/micronaut-langchain4j-bom@1.3.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.liquibase/micronaut-liquibase-bom@6.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.logging/micronaut-logging-bom@1.7.5?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.apache.logging.log4j/log4j-bom@2.25.3?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.mcp/micronaut-mcp-bom@0.0.20?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.micrometer/micronaut-micrometer-bom@5.13.3?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.micrometer/micrometer-bom@1.15.12?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.microstream/micronaut-microstream-bom@2.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.mongodb/micronaut-mongo-bom@5.7.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.mqtt/micronaut-mqtt-bom@3.7.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.multitenancy/micronaut-multitenancy-bom@5.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.nats/micronaut-nats-bom@4.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.neo4j/micronaut-neo4j-bom@6.11.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.objectstorage/micronaut-object-storage-bom@2.10.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.openapi/micronaut-openapi-bom@6.20.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.openrewrite/micronaut-openrewrite-bom@0.0.3?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.opensearch/micronaut-opensearch-bom@1.6.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.oraclecloud/micronaut-oraclecloud-bom@5.6.5?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.picocli/micronaut-picocli-bom@5.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.platform/micronaut-platform@4.10.18?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.micronaut.groovy/micronaut-groovy-bom@4.7.0?type=pom",
+        "pkg:maven/io.micronaut.rxjava2/micronaut-rxjava2-bom@2.9.0?type=pom",
+        "pkg:maven/io.micronaut.mcp/micronaut-mcp-bom@0.0.20?type=pom",
+        "pkg:maven/io.micronaut.nats/micronaut-nats-bom@4.9.0?type=pom",
+        "pkg:maven/io.micronaut.discovery/micronaut-discovery-client-bom@4.7.2?type=pom",
+        "pkg:maven/io.micronaut.objectstorage/micronaut-object-storage-bom@2.10.0?type=pom",
+        "pkg:maven/io.micronaut.chatbots/micronaut-chatbots-bom@1.5.0?type=pom",
+        "pkg:maven/io.micronaut.acme/micronaut-acme-bom@5.5.0?type=pom",
+        "pkg:maven/io.micronaut.servlet/micronaut-servlet-bom@5.6.1?type=pom",
+        "pkg:maven/io.micronaut.coherence/micronaut-coherence-bom@5.1.0?type=pom",
+        "pkg:maven/io.micronaut.controlpanel/micronaut-control-panel-bom@1.10.0?type=pom",
+        "pkg:maven/org.junit/junit-bom@5.14.0?type=pom",
+        "pkg:maven/io.micronaut.flyway/micronaut-flyway-bom@7.9.2?type=pom",
+        "pkg:maven/io.micronaut.graal-languages/micronaut-graal-languages-bom@1.2.0?type=pom",
+        "pkg:maven/io.micronaut.jms/micronaut-jms-bom@4.3.0?type=pom",
+        "pkg:maven/io.micronaut.tracing/micronaut-tracing-bom@7.2.0?type=pom",
+        "pkg:maven/io.micronaut.graphql/micronaut-graphql-bom@4.8.0?type=pom",
+        "pkg:maven/io.micronaut.sourcegen/micronaut-sourcegen-bom@1.8.5?type=pom",
+        "pkg:maven/io.micronaut.logging/micronaut-logging-bom@1.7.5?type=pom",
+        "pkg:maven/io.micronaut.cassandra/micronaut-cassandra-bom@6.7.0?type=pom",
+        "pkg:maven/io.micronaut.azure/micronaut-azure-bom@5.12.0?type=pom",
+        "pkg:maven/io.micronaut.jmx/micronaut-jmx-bom@4.7.0?type=pom",
+        "pkg:maven/io.micronaut.session/micronaut-session-bom@4.8.0?type=pom",
+        "pkg:maven/io.micronaut.r2dbc/micronaut-r2dbc-bom@6.2.0?type=pom",
+        "pkg:maven/io.micronaut.beanvalidation/micronaut-hibernate-validator-bom@4.8.0?type=pom",
+        "pkg:maven/io.micronaut.sql/micronaut-sql-bom@6.3.4?type=pom",
+        "pkg:maven/io.micronaut.oraclecloud/micronaut-oraclecloud-bom@5.6.5?type=pom",
+        "pkg:maven/io.micronaut.eclipsestore/micronaut-eclipsestore-bom@1.10.0?type=pom",
+        "pkg:maven/io.micronaut.picocli/micronaut-picocli-bom@5.9.0?type=pom",
+        "pkg:maven/io.micronaut.serde/micronaut-serde-bom@2.16.2?type=pom",
+        "pkg:maven/io.micronaut.neo4j/micronaut-neo4j-bom@6.11.0?type=pom",
+        "pkg:maven/io.micronaut.aws/micronaut-aws-bom@4.11.0?type=pom",
+        "pkg:maven/io.micronaut.rss/micronaut-rss-bom@4.8.1?type=pom",
+        "pkg:maven/io.micronaut.grpc/micronaut-grpc-bom@4.13.0?type=pom",
+        "pkg:maven/io.micronaut.validation/micronaut-validation-bom@4.12.0?type=pom",
+        "pkg:maven/io.micronaut.langchain4j/micronaut-langchain4j-bom@1.3.0?type=pom",
+        "pkg:maven/io.micronaut.microstream/micronaut-microstream-bom@2.9.0?type=pom",
+        "pkg:maven/io.micronaut.gcp/micronaut-gcp-bom@5.13.1?type=pom",
+        "pkg:maven/io.micronaut.openapi/micronaut-openapi-bom@6.20.1?type=pom",
+        "pkg:maven/io.micronaut.micrometer/micronaut-micrometer-bom@5.13.3?type=pom",
+        "pkg:maven/io.micronaut.redis/micronaut-redis-bom@6.9.0?type=pom",
+        "pkg:maven/io.micronaut.spring/micronaut-spring-bom@5.12.1?type=pom",
+        "pkg:maven/io.micronaut.mqtt/micronaut-mqtt-bom@3.7.0?type=pom",
+        "pkg:maven/io.micronaut.pulsar/micronaut-pulsar-bom@2.6.0?type=pom",
+        "pkg:maven/io.micronaut.security/micronaut-security-bom@4.15.2?type=pom",
+        "pkg:maven/io.micronaut.opensearch/micronaut-opensearch-bom@1.6.0?type=pom",
+        "pkg:maven/io.micronaut.openrewrite/micronaut-openrewrite-bom@0.0.3?type=pom",
+        "pkg:maven/io.micronaut.xml/micronaut-jackson-xml-bom@4.8.0?type=pom",
+        "pkg:maven/io.micronaut.mongodb/micronaut-mongo-bom@5.7.0?type=pom",
+        "pkg:maven/io.micronaut/micronaut-core-bom@4.10.28?type=pom",
+        "pkg:maven/io.micronaut.email/micronaut-email-bom@2.10.1?type=pom",
+        "pkg:maven/io.micronaut.test/micronaut-test-bom@4.10.3?type=pom",
+        "pkg:maven/io.micronaut.toml/micronaut-toml-bom@2.8.0?type=pom",
+        "pkg:maven/io.micronaut.cache/micronaut-cache-bom@5.3.0?type=pom",
+        "pkg:maven/io.micronaut.rxjava3/micronaut-rxjava3-bom@3.9.0?type=pom",
+        "pkg:maven/io.micronaut.jsonschema/micronaut-json-schema-bom@1.7.4?type=pom",
+        "pkg:maven/io.micronaut.multitenancy/micronaut-multitenancy-bom@5.8.0?type=pom",
+        "pkg:maven/io.micronaut.guice/micronaut-guice-bom@1.3.0?type=pom",
+        "pkg:maven/io.micronaut.kotlin/micronaut-kotlin-bom@4.7.0?type=pom",
+        "pkg:maven/io.micronaut.aot/micronaut-aot-bom@2.9.0?type=pom",
+        "pkg:maven/io.micronaut.testresources/micronaut-test-resources-bom@2.10.1?type=pom",
+        "pkg:maven/io.micronaut.jaxrs/micronaut-jaxrs-bom@4.10.0?type=pom",
+        "pkg:maven/io.micronaut.data/micronaut-data-bom@4.14.5?type=pom",
+        "pkg:maven/io.micronaut.kubernetes/micronaut-kubernetes-bom@7.1.1?type=pom",
+        "pkg:maven/io.micronaut.liquibase/micronaut-liquibase-bom@6.9.0?type=pom",
+        "pkg:maven/io.micronaut.guides/micronaut-guides-bom@0.1.0?type=pom",
+        "pkg:maven/io.micronaut.reactor/micronaut-reactor-bom@3.9.1?type=pom",
+        "pkg:maven/io.micronaut.crac/micronaut-crac-bom@2.7.0?type=pom",
+        "pkg:maven/io.micronaut.kafka/micronaut-kafka-bom@5.9.0?type=pom",
+        "pkg:maven/io.micronaut.problem/micronaut-problem-json-bom@3.9.0?type=pom",
+        "pkg:maven/io.micronaut.views/micronaut-views-bom@5.9.0?type=pom",
+        "pkg:maven/io.micronaut.rabbitmq/micronaut-rabbitmq-bom@4.8.0?type=pom",
+        "pkg:maven/io.micronaut.elasticsearch/micronaut-elasticsearch-bom@5.10.0?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.problem/micronaut-problem-json-bom@3.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.pulsar/micronaut-pulsar-bom@2.6.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.r2dbc/micronaut-r2dbc-bom@6.2.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.rabbitmq/micronaut-rabbitmq-bom@4.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.reactor/micronaut-reactor-bom@3.9.1?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.projectreactor/reactor-bom@2024.0.11?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.redis/micronaut-redis-bom@6.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.rss/micronaut-rss-bom@4.8.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.rxjava2/micronaut-rxjava2-bom@2.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.rxjava3/micronaut-rxjava3-bom@3.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.security/micronaut-security-bom@4.15.2?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.serde/micronaut-serde-bom@2.16.2?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.servlet/micronaut-servlet-bom@5.6.1?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-bom@12.0.31?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.session/micronaut-session-bom@4.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.sourcegen/micronaut-sourcegen-bom@1.8.5?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.spring/micronaut-spring-bom@5.12.1?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.springframework/spring-framework-bom@6.2.16?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.sql/micronaut-sql-bom@6.3.4?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.jdbi/jdbi3-bom@3.49.6?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.test/micronaut-test-bom@4.10.3?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.junit/junit-bom@5.14.0?type=pom",
+        "pkg:maven/io.rest-assured/rest-assured-bom@5.5.6?type=pom",
+        "pkg:maven/io.kotest/kotest-bom@5.9.1?type=pom",
+        "pkg:maven/org.spockframework/spock-bom@2.3-groovy-4.0?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.testresources/micronaut-test-resources-bom@2.10.1?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.testcontainers/testcontainers-bom@1.20.6?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.toml/micronaut-toml-bom@2.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.tracing/micronaut-tracing-bom@7.2.0?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom@2.20.1?type=pom",
+        "pkg:maven/io.zipkin.brave/brave-bom@6.3.0?type=pom",
+        "pkg:maven/io.opentelemetry/opentelemetry-bom-alpha@1.54.1-alpha?type=pom",
+        "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom",
+        "pkg:maven/io.zipkin.reporter2/zipkin-reporter-bom@3.5.1?type=pom",
+        "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom-alpha@2.20.1-alpha?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.validation/micronaut-validation-bom@4.12.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.views/micronaut-views-bom@5.9.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut.xml/micronaut-jackson-xml-bom@4.8.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.micronaut/micronaut-core-bom@4.10.28?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.8.1?type=pom",
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.22.1?type=pom",
+        "pkg:maven/io.netty/netty-bom@4.2.18.Final?type=pom",
+        "pkg:maven/org.apache.groovy/groovy-bom@4.0.28?type=pom",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-bom@1.9.25?type=pom",
+        "pkg:maven/io.micronaut.sourcegen/micronaut-sourcegen-bom@1.8.5?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-bom@4.2.18.Final?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom-alpha@2.20.1-alpha?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom@2.20.1?type=pom",
+        "pkg:maven/io.opentelemetry/opentelemetry-bom-alpha@1.54.1-alpha?type=pom",
+        "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-instrumentation-bom@2.20.1?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.opentelemetry/opentelemetry-bom-alpha@1.54.1-alpha?type=pom",
+      "dependsOn" : [
+        "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.opentelemetry/opentelemetry-bom@1.54.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.projectreactor/reactor-bom@2024.0.11?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.qameta.allure/allure-bom@2.35.4?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.rest-assured/rest-assured-bom@5.5.6?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.zipkin.brave/brave-bom@6.3.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.zipkin.reporter2/zipkin-reporter-bom@3.5.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.groovy/groovy-bom@4.0.28?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-bom@2.25.3?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-bom@12.0.31?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jdbi/jdbi3-bom@3.49.6?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-bom@1.9.25?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.25?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.25?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.25?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.25?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.25?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.25?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.25?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.25?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.8.1?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.json/json@20250107?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.junit/junit-bom@5.14.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.spockframework/spock-bom@2.3-groovy-4.0?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.springframework/spring-framework-bom@6.2.16?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.testcontainers/testcontainers-bom@1.20.6?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/software.amazon.awssdk/bom@2.54.2?type=pom",
+      "dependsOn" : [ ]
+    }
+  ]
+}

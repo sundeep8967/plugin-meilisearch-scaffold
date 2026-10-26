@@ -1,0 +1,8 @@
+group: io.kestra.plugin.meilisearch
+name: "meilisearch"
+title: "Meilisearch"
+description: "Tasks for creating and managing indexes, adding, searching, and deleting documents in Meilisearch."
+body: "Integrate Kestra with Meilisearch to build ultra-fast, typo-tolerant search and hybrid vector search pipelines."
+videos: []
+createdBy: "sundeep8967"
+managedBy: "sundeep8967"
